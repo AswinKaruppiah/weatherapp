@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "weatherapp",
+    "slug": "weatherapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/partlycloudy.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/partlycloudy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/partlycloudy.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aswin27.weatherapp"
+    },
+    "web": {
+      "favicon": "./assets/images/partlycloudy.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67e23280-7092-41ce-b3a6-74a4ca6e2fa5"
+      }
+    }
+  }
+}
